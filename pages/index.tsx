@@ -70,6 +70,7 @@ export default function Home(props: HomeProps) {
                 abbreviateNumberByMagnitude(value, { fixed: 2 })
               }
               showLegend={false}
+              maxValue={20000000}
             />
           </Card>
           {/* Hack to get these classnames for Legend in Tailwind JIT build (seems to be a bug with Tremor v2) */}
